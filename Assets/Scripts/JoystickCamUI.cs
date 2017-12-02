@@ -39,7 +39,7 @@ public class JoystickCamUI : MonoBehaviour
     #region 内置函数
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         UIEventListener.Get(mWidget.gameObject).onClick = OnWidgetClick;
         UIEventListener.Get(mWidget.gameObject).onDrag = OnWidgetDrag;
@@ -47,11 +47,11 @@ public class JoystickCamUI : MonoBehaviour
 
         EasyTouch.On_Pinch += OnWidgetPinch;
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-       
+
     }
 
     void OnDestroy()

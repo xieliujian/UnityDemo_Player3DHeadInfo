@@ -94,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1456903530875506}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -690, y: -305, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4262428306813136}
@@ -178,8 +178,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61bb1b4c53e47b41a18baf1952d88aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DRAGING_BOXCOLLI_SIZE: {x: 900, y: 900, z: 1}
   mBg: {fileID: 114952909618212246}
   mTouch: {fileID: 114251827346106500}
+  mTouchBoxColli: {fileID: 65882294958582064}
 --- !u!114 &114952909618212246
 MonoBehaviour:
   m_ObjectHideFlags: 1

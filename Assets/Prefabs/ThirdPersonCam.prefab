@@ -104,16 +104,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mPlayer: {fileID: 0}
-  mJoystickCamUI: {fileID: 0}
   mPivotOffset: {x: 0, y: 1, z: 0}
-  mCamOffset: {x: 0, y: 0.7, z: -5}
   mHorizontalAimingSpeed: 400
   mVerticalAimingSpeed: 400
   mMaxVerticalAngle: 30
   mMinVerticalAngle: -60
-  mMaxDistance: 2
+  mMaxDistance: 10
   mMinDistance: 1
-  mZoomSpeed: 2
+  mZoomSpeed: 0.5
+  mJoystickCamUI: {fileID: 0}
 --- !u!124 &124426230934836330
 Behaviour:
   m_ObjectHideFlags: 1

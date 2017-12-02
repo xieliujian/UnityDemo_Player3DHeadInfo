@@ -17955,21 +17955,6 @@ Prefab:
       propertyPath: mJoystickCamUI
       value: 
       objectReference: {fileID: 1971931236}
-    - target: {fileID: 114465614740580710, guid: 46743c2389f0c0045a2219eef5d89a4d,
-        type: 2}
-      propertyPath: mMinDistance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114465614740580710, guid: 46743c2389f0c0045a2219eef5d89a4d,
-        type: 2}
-      propertyPath: mMaxDistance
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114465614740580710, guid: 46743c2389f0c0045a2219eef5d89a4d,
-        type: 2}
-      propertyPath: mZoomSpeed
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46743c2389f0c0045a2219eef5d89a4d, type: 2}
   m_IsPrefabParent: 0
