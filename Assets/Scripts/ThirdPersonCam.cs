@@ -115,17 +115,6 @@ public class ThirdPersonCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    void OnDestroy()
-    {
-        mJoystickCamUI.OnDrag -= OnJoystickCamDrag;
-        mJoystickCamUI.OnPinch -= OnJoystickCamPinch;
-    }
-
-    void LateUpdate()
-    {
         if (mCamera == null)
         {
             Debug.LogError(ERROR_UN_BINDCAM);
@@ -167,6 +156,17 @@ public class ThirdPersonCam : MonoBehaviour
                 mCamera.position = lookatpos + camdir * distance;
             }
         }
+    }
+
+    void OnDestroy()
+    {
+        mJoystickCamUI.OnDrag -= OnJoystickCamDrag;
+        mJoystickCamUI.OnPinch -= OnJoystickCamPinch;
+    }
+
+    void LateUpdate()
+    {
+
     }
 
     #endregion

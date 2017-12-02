@@ -277,10 +277,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4000012981264932}
   - component: {fileID: 95000010010905692}
-  - component: {fileID: 143775500665859280}
-  - component: {fileID: 114176387604949366}
   m_Layer: 0
-  m_Name: anyuezhongcai
+  m_Name: Npc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3290,7 +3288,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010530590792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -157.51572, y: 104.583, z: 222.73969}
+  m_LocalPosition: {x: -168.21619, y: 104.73629, z: 268.57974}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000012745005642}
@@ -3992,20 +3990,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114176387604949366
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010530590792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b161236edb962468fd1c2412673b8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mJoystick: {fileID: 0}
-  mCamera: {fileID: 0}
-  mCharCtrl: {fileID: 143775500665859280}
 --- !u!114 &114218760554115378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4488,23 +4472,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.25084874, y: 0.037597828, z: -0.19068238}
     m_Extent: {x: 0.34346142, y: 0.16674471, z: 0.28943416}
   m_DirtyAABB: 0
---- !u!143 &143775500665859280
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010530590792}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1.36
-  m_Radius: 0.41
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.72, z: 0}
 --- !u!222 &222477944969338794
 CanvasRenderer:
   m_ObjectHideFlags: 1

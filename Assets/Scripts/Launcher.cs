@@ -5,6 +5,15 @@ using HedgehogTeam.EasyTouch;
 
 public class Launcher : MonoBehaviour
 {
+    public static Launcher Instance = null;
+
+    public Transform Me;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Use this for initialization
     void Start()
     {
