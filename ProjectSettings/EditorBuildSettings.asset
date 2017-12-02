@@ -6,5 +6,4 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Player3DHeadInfo.unity
-    guid: 09fadd75a0ce2a847a2d47e8588ce34c
+    path: Assets/Scenes/IslandScenes/021_chuan.unity
