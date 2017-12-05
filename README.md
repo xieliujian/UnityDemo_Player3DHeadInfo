@@ -7,7 +7,7 @@
 
 ****
 
-<h2 id="Demo2">这个Demo展示了游戏中3D头顶信息</h2>
+<h2 id="Demo2">UnityDemo_Player3DHeadInfo展示了游戏中3D头顶信息</h2>
 
 ![效果图](https://github.com/xieliujian/UnityDemo_Player3DHeadInfo/blob/master/Snapshots/TIM_20171203013048.png)
 
